@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	tools:ignore="Deprecated" >
+
+	<TextView
+		android:id="@+id/textView1"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_x="2dp"
+		android:layout_y="7dp"
+		android:text="Welcome, "
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		tools:ignore="HardcodedText" />
+
+	<TextView
+		android:id="@+id/textView2"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_x="104dp"
+		android:layout_y="7dp"
+		android:text="Large Text"
+		android:textAppearance="?android:attr/textAppearanceLarge" />
+
+	<Button
+		android:id="@+id/logout"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_x="112dp"
+		android:layout_y="75dp"
+		android:text="Logout" />
+
+</AbsoluteLayout>

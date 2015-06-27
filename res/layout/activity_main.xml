@@ -1,0 +1,73 @@
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:id="@+id/AbsoluteLayout1"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:paddingBottom="@dimen/activity_vertical_margin"
+	android:paddingLeft="@dimen/activity_horizontal_margin"
+	android:paddingRight="@dimen/activity_horizontal_margin"
+	android:paddingTop="@dimen/activity_vertical_margin"
+	tools:context="com.example.registration.MainActivity"
+	tools:ignore="Deprecated" >
+
+    <TextView
+    	android:id="@+id/textView1"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:layout_x="-2dp"
+    	android:layout_y="7dp"
+    	android:text="User Name"
+    	android:textAppearance="?android:attr/textAppearanceLarge"
+    	tools:ignore="HardcodedText" />
+
+    <EditText
+    	android:id="@+id/name"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:layout_x="0dp"
+    	android:layout_y="43dp"
+    	android:ems="10"
+    	tools:ignore="TextFields,LabelFor" />
+
+    <TextView
+    	android:id="@+id/textView2"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:layout_x="-2dp"
+    	android:layout_y="105dp"
+    	android:text="Password"
+    	android:textAppearance="?android:attr/textAppearanceLarge"
+    	tools:ignore="HardcodedText" />
+
+    <EditText
+    	android:id="@+id/password1"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:layout_x="0dp"
+    	android:layout_y="155dp"
+    	android:ems="10"
+    	android:inputType="textPassword"
+    	tools:ignore="LabelFor" >
+
+    	<requestFocus />
+    </EditText>
+
+    <Button
+    	android:id="@+id/register"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:layout_x="33dp"
+    	android:layout_y="248dp"
+    	android:text="Login"
+    	tools:ignore="HardcodedText" />
+
+    <Button
+    	android:id="@+id/signup"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:layout_x="199dp"
+    	android:layout_y="248dp"
+    	android:text="SignUp"
+    	tools:ignore="HardcodedText" />
+
+</AbsoluteLayout>
